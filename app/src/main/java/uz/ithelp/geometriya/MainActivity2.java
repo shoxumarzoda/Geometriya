@@ -20,7 +20,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity implements UserAdapter.SelectedUser {
 
     Toolbar toolbar;
     RecyclerView recyclerView;
@@ -151,9 +151,10 @@ public class MainActivity2 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-//    @Override
-//    public void selectedUser(ModelRcycler modelRcycler) {
-//        startActivity(new Intent(MainActivity2.this, MainActivity3.class).putExtra("data",modelRcycler.getLoadUrl()));
-//    }
+
+    @Override
+    public void selectedUser(ModelRcycler modelRcycler) {
+        startActivity(new Intent(MainActivity2.this, MainActivity3.class).putExtra("data",modelRcycler.getLoadUrl()));
+    }
 
 }

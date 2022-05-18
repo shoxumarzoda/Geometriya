@@ -105,8 +105,6 @@ class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserAdapterViewHolder
                 public void onClick(View v) {
                     selectedUser.selectedUser(userModelList.get(getAdapterPosition()));
 
-
-
                     Toast.makeText(v.getContext(), "" + userModelList.get(getAdapterPosition()).getLessonName(), Toast.LENGTH_SHORT).show();
 
                 }
