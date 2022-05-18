@@ -67,23 +67,51 @@ public class MainActivity2 extends AppCompatActivity {
         switch (getChemgeItemPosition){
             case 1: {
 
-                textViewSelectedChapterName.setText("I bap. HTML5 hám CSS3 járdeminde betlikler jaratıw");
+                textViewSelectedChapterName.setText("I bob. Sirkul va chizg’ich yordamida yasaladigan masalalarw");
 
-                modelRcyclers.add(new ModelRcycler("1.1. HTML5 járdeminde betlikler jaratıw ","file:///android_asset/1-1.htm"));
-                modelRcyclers.add(new ModelRcycler("1.2. CSS3(Cascading Style Sheets) tiykarları ","file:///android_asset/1-2.htm"));
-                modelRcyclers.add(new ModelRcycler("1.3.\tCSS Sin-taksisi","file:///android_asset/1-3.htm"));
-                modelRcyclers.add(new ModelRcycler("1.4.\tCSSda selektorlar","file:///android_asset/1-4.htm"));
-                modelRcyclers.add(new ModelRcycler("1.5.\tCSSda reńler","file:///android_asset/1-5.htm"));
-                modelRcyclers.add(new ModelRcycler("1.6.\tMiyras alıw","file:///android_asset/1-6.htm"));
-                modelRcyclers.add(new ModelRcycler("1.7.\tBootstrap framework","file:///android_asset/1-7.htm"));
+                modelRcyclers.add(new ModelRcycler("1.1-§.Sirkul va chizg’ich yordamida yasashga doir masalalar haqida tushuncha va  yasash postulatlari","file:///android_asset/1.1.htm"));
+                modelRcyclers.add(new ModelRcycler("1.2-§. Bevosita yechiladigan masalalar ","file:///android_asset/1.2.htm"));
+                modelRcyclers.add(new ModelRcycler("1.3-§. Nuqta, kesma, to`g`ri chiziq va burchaklar yasashga doir masalalar","file:///android_asset/1.3.htm"));
+                modelRcyclers.add(new ModelRcycler("1.4-§. Yasashga doir masalalar yechishdagi bosqichlar","file:///android_asset/1.4.htm"));
 
+            }break;
+            case 2: {
 
-//                    ranglarni to'g'irlash kerka
+                textViewSelectedChapterName.setText("II bob. Sirkul va chizg’ich yordamida yasash metodlari");
 
-
+                modelRcyclers.add(new ModelRcycler("2.1-§.Geometrik o`rinlar metodi va unga doir masalalar","file:///android_asset/2.1.htm"));
+                modelRcyclers.add(new ModelRcycler("2.2-§. To`g`rilash metodi va unga doir masalalar","file:///android_asset/2.2.htm"));
+                modelRcyclers.add(new ModelRcycler("2.3-§.Geometrik almashtirishlar metodi","file:///android_asset/2.3.htm"));
+                modelRcyclers.add(new ModelRcycler("2.3.1. O`q simmetriya metodiga doir masalalar","file:///android_asset/2.3.1.htm"));
+                modelRcyclers.add(new ModelRcycler("2.3.2.Parallel ko`chirish metodiga doir masalalar","file:///android_asset/2.3.2.htm"));
+                modelRcyclers.add(new ModelRcycler("2.3.3.Nuqta atrofida aylantirish (burish) metodiga doir masalalar","file:///android_asset/2.3.3.htm"));
+                modelRcyclers.add(new ModelRcycler("2.3.4.Gomotetiya metodiga doir masalalar","file:///android_asset/2.3.4.htm"));
+                modelRcyclers.add(new ModelRcycler("2.3.5.O`xshash almashtirish metodi va unga doir masalalar","file:///android_asset/2.3.5.htm"));
+                modelRcyclers.add(new ModelRcycler("2.4-§.Inversiya metodiga doir savol va masalalar","file:///android_asset/2.4.htm"));
+                modelRcyclers.add(new ModelRcycler("2.5-§.Algebraik metodiga doir savol va masalalar","file:///android_asset/2.5.htm"));
 
             }break;
 
+            case 3: {
+
+                textViewSelectedChapterName.setText("III bob. Sirkul va chizg’ich yordamida yechiladigan  va yechilmaydigan masalalar");
+
+                modelRcyclers.add(new ModelRcycler("3.1-§.   Sirkul va chizg’ich yordamida yechiladigan yasashga doir masalalar kriteriyasi","file:///android_asset/3.1.htm"));
+                modelRcyclers.add(new ModelRcycler("3.2-§.Sirkul va chizg’ich yordamida yechilmaydigan yasashga doir ba`zi masal","file:///android_asset/3.2.htm"));
+
+            }break;
+            case 4: {
+
+                textViewSelectedChapterName.setText("IV bob. Sodda geometrik figuralarni yasashga doir masalalar");
+
+                modelRcyclers.add(new ModelRcycler("4.1-§. Uchburchak yasashga doir masalalar","file:///android_asset/4.1.htm"));
+                modelRcyclers.add(new ModelRcycler("4.2-§. To`rtburchak yasashga doir masalalar","file:///android_asset/4.2.htm"));
+                modelRcyclers.add(new ModelRcycler("4.3-§. Trapetsiya yasashga doir masalalar","file:///android_asset/4.3.htm"));
+                modelRcyclers.add(new ModelRcycler("4.4-§. Parallelogramm yasashga doir masalalar","file:///android_asset/4.4.htm"));
+                modelRcyclers.add(new ModelRcycler("4.5-§. Ko`pburchak yasashga doir masalalar","file:///android_asset/4.5.htm"));
+                modelRcyclers.add(new ModelRcycler("4.6-§. Mustaqil yechishga doir ba’zi aralash masalalar","file:///android_asset/4.6.htm"));
+
+            }break;
 
         }
 
