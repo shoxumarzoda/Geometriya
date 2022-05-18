@@ -62,7 +62,7 @@ public class MainActivity2 extends AppCompatActivity implements UserAdapter.Sele
 
         //backround uchun liner layoutni aniqlash
         constraintLayout = findViewById(R.id.constraintLayout1);
-        constraintLayout.setBackgroundColor(getResources().getColor(androidx.cardview.R.color.cardview_dark_background));
+        constraintLayout.setBackgroundColor(getResources().getColor(R.color.mycolor));
 
         switch (getChemgeItemPosition){
             case 1: {
